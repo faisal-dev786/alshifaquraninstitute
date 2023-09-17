@@ -4,10 +4,14 @@ import Team from "../components/Team";
 import Testimonials from "../components/Testimonials";
 import Gallery from "../components/Gallery";
 import Services from "../components/Services";
+import Slider from "../components/Slider";
+import HeroBanner from "../components/HeroBanner";
 
 const Home = () => {
   return (
     <div>
+      <HeroBanner />
+      {/* <Slider /> */}
       <Services />
       <Team />
       <Gallery />
