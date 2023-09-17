@@ -1,7 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+/* .bgImg {
+  background: url("/pexels-movie-channet-17517297 (1080p).mp4");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
 /* slider */
 
 .swiper {

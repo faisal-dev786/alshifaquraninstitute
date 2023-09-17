@@ -6,11 +6,13 @@ import Gallery from "../components/Gallery";
 import Services from "../components/Services";
 import Slider from "../components/Slider";
 import HeroBanner from "../components/HeroBanner";
+import About from "../components/About";
 
 const Home = () => {
   return (
     <div>
       <HeroBanner />
+      <About />
       {/* <Slider /> */}
       <Services />
       <Team />
